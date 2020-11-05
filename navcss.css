@@ -1,0 +1,28 @@
+* {
+  box-sizing: border-box;
+}
+ul {
+  display: flow-root;
+  padding: 0;
+}
+ul li {
+  float: left;
+  background-color: #5D3A00;
+  color: white;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  width: 200px;
+  line-height: 30px;
+  text-align: center;
+}
+ul li:hover {
+  background-color: #1A1000;
+}
+ul li ul li {
+  display: none;
+}
+
+ul li:hover ul li {
+  display:block;
+}
